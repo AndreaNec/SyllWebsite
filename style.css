@@ -1,0 +1,372 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  @font-face {
+    font-family: 'inconsolataregular';
+    src: url('inconsolata-variablefont_wdthwght-webfont.woff2') format('woff2'),
+         url('inconsolata-variablefont_wdthwght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+  body {
+    font-family: 'Roboto';
+    background: #242424;
+    color: #fff;
+    height: 100vh;
+    line-height: 1.6;
+    overflow: hidden; 
+    
+  }
+  
+  .container {
+    width: 100%;
+    height: 100%;
+    /* CSS Smooth Scroll */
+    overflow-y: scroll; 
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+  }
+  
+  .lead {
+    font-size: 1.5rem;
+  }
+  
+  .navbar {
+    font-family: 'roboto';
+    top: 0;
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    /* background: rgba(0,0,0,0.7); */
+  }
+  
+  .navbar ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 1rem;
+  }
+  
+  .navbar ul li {
+    margin: 0 1rem;
+    padding: 1rem;
+    text-transform: uppercase;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #f4f4f4;
+    font-weight: lighter;
+    padding: 0.5em;
+  }
+  
+  .navbar ul li a:hover {
+    background: white;
+    color: black;
+    border-radius: 15px;
+    
+  }
+
+  .vl{
+    background: white;
+    width: 2px;
+    height: 2em;
+  }
+  .logo{
+    margin-left: 5px;
+    height: 5em;
+    border-radius: 50%;
+  }
+  section {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Inconsolata';
+    overflow-x: hidden;
+    /* Scroll Snap */
+    /* scroll-snap-align: center; */
+  }
+
+  section#home{
+    background: url('https://cdn.pixabay.com/photo/2016/08/04/14/04/space-1569133_960_720.jpg') no-repeat center center/cover;;
+    display: flex;
+    flex-direction: column;
+    height: 135vh;
+  }
+  .space-left{
+    margin-left: 18.2vw;
+  }
+  .spaceLeftText{
+    margin-left:3.5vw;
+  }
+
+
+/* Section home */
+  .counter-name{
+    background: #F27807;
+    display: flex;
+    align-items: center;
+    gap: 5em;
+    padding: 2em;
+    height: 153px;
+    width: 1527px;
+    top: 248px;
+    border-radius: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 5em;
+    
+  }
+  .namehome{
+    font-family: Roboto;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .vl-home{
+    width: 78px;
+    height: 0px;
+    left: 614px;
+    top: 284px;
+
+    border: 3px solid #FFFFFF;
+    transform: rotate(90deg);
+
+    margin-left: -5em;
+  }
+  .countdown{
+    font-family: 'Roboto';
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .description{
+    font-family: 'Inconsolata', monospace;
+    font-weight: 300, Light;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-right: 50px;
+
+  }
+  .flexline{
+    display: flex;
+    margin-top: 2em;
+  }
+  .line{
+    width: 0.3em;
+    background-color: #fff;
+    margin-right: 1.75em;
+  }
+  .time-socialmedia{
+    display:flex;
+    align-items: center;
+    gap: 4em;
+    margin-top: 2.25em;
+    font-family: 'Inconsolata';
+  }
+  .date{
+    font-family: 'Inconsolata';
+    font-weight: 400;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    color:white;
+
+  }
+  .time{
+    font-family: 'Inconsolata';
+    color: #F27807;
+    font-size: 36px;
+    font-weight: 600;
+  }
+  .showMint{
+    margin-top: 2em;
+    display: flex;
+    gap: 4em;
+  }
+  .show{
+    width: 343px;
+    height: 405px;
+    left: 441px;
+    top: 676px;
+
+    background: rgba(62, 62, 62, 0.5);
+    backdrop-filter: blur(50px);
+
+    display:flex;
+    flex-direction: column;
+  }
+  .showB{
+    width: 343px;
+    height: 343px;
+    left: 441px;
+    top: 676px;
+
+    background: rgba(62, 62, 62, 0.5);
+    backdrop-filter: blur(50px);
+
+    display:flex;
+    flex-direction: column;
+  }
+  .mintButton{
+
+    z-index: 5;
+    width: 50%;
+    margin: auto;
+    margin-bottom: -4em;
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 62px;;
+  }
+  .NFT{
+    font-family:'Inconsolata' ;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .NFTB img{
+    margin-top: -10px;
+  }
+  .blur{
+    margin-bottom: -21.45em;
+    background: rgba(16, 16, 16, 0.5);
+    backdrop-filter: blur(30px);
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+  }
+
+  /*Section About*/
+  section#about-the-project{
+    background-color:  #242424;
+    display: flex;
+    flex-direction: row;
+    overflow-y: hidden;
+    align-items: center;
+
+  }
+  section#about-the-project h1{
+    font-weight: 400;
+    font-size: 36px;
+  }
+  section#about-the-project h2{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.2em;
+  }
+  section#about-the-project span{
+    color:#F27807;
+  }
+  S{
+    box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  .textAbout{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 50vw;
+  }
+  .about{
+    margin-left: 12vw;
+  }
+  section#roadmap{
+    background-color: #F27807;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .titleR{
+    z-index: 6;
+    margin-bottom: 100px;
+  }
+/* 
+
+  .roadmappoints{
+    display: flex;
+    overflow-x: scroll;
+  }
+
+  .roadmappoint{
+    flex:none;
+    background: red;
+    margin-left: 1vw;
+    width: 10vw;
+    height: 20vh;
+  } */
+  .outer {
+  
+    overflow:hidden
+  
+  }
+  
+  .containerR {
+    display: flex;
+    transition: transform .4s ease-in;
+    
+  }
+  
+  .inner {
+    flex: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 20vw;
+    height: 50vh;
+    margin:10px;
+    background-color: #242424;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  /* .contentInner{
+    width: 15vw;
+    height: 45vh;
+    margin-left: 1em;
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+  } */
+  .hole{
+    width: 60px;
+    height: 62px;
+    left: 553px;
+    top: 3070px;
+    border-radius: 50%;
+
+    background: #F27807;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    margin-bottom: 0.5em;
+  }
+  .paddle {
+    top: 50px;
+    bottom: 0;
+    width: 30px;
+    height:20px;
+  }
+  .lefty {
+
+    left: 0;
+    margin-bottom: -6vh;
+    z-index:1;
+  }
+  .righty{
+    
+    right: 0;
+    margin-top: -45;
+     z-index:1;
+  }
