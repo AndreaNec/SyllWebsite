@@ -127,6 +127,7 @@
     background: url('public/img/pexels-henry-&-co-1939485.jpg.png') no-repeat center center/cover;;
     display: flex;
     flex-direction: column;
+    overflow:hidden;
   }
 
 
