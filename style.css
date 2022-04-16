@@ -120,7 +120,7 @@
     font-family: 'Inconsolata';
     overflow-x: hidden;
     /* Scroll Snap */
-    /* scroll-snap-align: center; */
+    scroll-snap-align: center;
   }
 
   section#home{
